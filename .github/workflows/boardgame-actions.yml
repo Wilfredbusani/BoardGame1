@@ -44,4 +44,8 @@ jobs:
             -Dsonar.projectKey=my-project-key
             -Dsonar.projectName=My Project Name
             -Dsonar.projectVersion=1.0
+    - name: Run Gitleaks
+      uses: gitleaks/gitleaks-action@v2 # Use the official Gitleaks Action
+      env:     
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
