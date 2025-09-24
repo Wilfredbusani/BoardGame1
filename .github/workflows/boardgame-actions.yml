@@ -16,7 +16,7 @@ on:
 
 jobs: 
   build:
-    runs-on: Running-1
+    runs-on: Runner-1
 
     steps:
     - uses: actions/checkout@v4
