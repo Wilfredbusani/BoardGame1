@@ -17,7 +17,7 @@ on:
 jobs:
   build:
 
-    runs-on: Runner-1
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
